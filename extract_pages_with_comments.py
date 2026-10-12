@@ -10,10 +10,10 @@
 依存: Python 3、PyMuPDF（pip install pymupdf）
 
 例:
-  python3 nya_extract_pages_with_comments.py input.pdf -o output.pdf
-  python3 nya_extract_pages_with_comments.py input.pdf
-  python3 nya_extract_pages_with_comments.py ./pdfs -o ./out
-  python3 nya_extract_pages_with_comments.py ./pdfs
+  python3 extract_pages_with_comments.py input.pdf -o output.pdf
+  python3 extract_pages_with_comments.py input.pdf
+  python3 extract_pages_with_comments.py ./pdfs -o ./out
+  python3 extract_pages_with_comments.py ./pdfs
 """
 
 import os

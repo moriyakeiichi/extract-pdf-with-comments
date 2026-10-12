@@ -21,7 +21,7 @@ python3 -m venv .build-env
 .build-env/bin/python build_apps.py
 ```
 
-`nya_extract_pages_with_comments.py` は、注釈があるページの抽出をコマンドから行うスクリプトです。
+`extract_pages_with_comments.py` は、注釈があるページの抽出をコマンドから行うスクリプトです。
 
 ## ライセンス
 

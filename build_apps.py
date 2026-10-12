@@ -86,7 +86,7 @@ if source_output.exists():
     shutil.rmtree(source_output)
 shutil.copytree(ROOT / "src", source_output / "src", ignore=shutil.ignore_patterns("__pycache__"))
 shutil.copytree(ROOT / "tests", source_output / "tests", ignore=shutil.ignore_patterns("__pycache__"))
-for name in ("build_apps.py", "requirements-build.txt", "使い方.md", "nya_extract_pages_with_comments.py"):
+for name in ("build_apps.py", "requirements-build.txt", "使い方.md", "extract_pages_with_comments.py"):
     shutil.copy2(ROOT / name, source_output / name)
 DESTINATION.parent.mkdir(parents=True, exist_ok=True)
 archive = DESTINATION.parent / "注釈ページ抽出.zip"
