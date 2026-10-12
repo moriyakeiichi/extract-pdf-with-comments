@@ -6,7 +6,7 @@ Apple Silicon（M1以降）、macOS 13 以降で動きます。処理は Mac の
 
 ## アプリを入手する
 
-[Releases](https://github.com/moriyakeiichi/extract-pdf-with-comments/releases/latest) の `注釈ページ抽出.zip` をダウンロードし、展開して `注釈ページ抽出.app` を開きます。
+[Releases](https://github.com/moriyakeiichi/extract-pdf-with-comments/releases/latest) の `extract-pdf-with-comments-mac.zip` をダウンロードし、展開して `注釈ページ抽出.app` を開きます。
 
 初回に「開発元を確認できない」と出たときは、アプリを右クリックして「開く」を選んでください。Apple の公証は行っていません。
 
